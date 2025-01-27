@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-
+import chiamake from '../assets/chiamaka.png';
 function Hero() {
   return (
     <section className="relative h-screen flex items-center bg-cover bg-[url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/05/Gradient-Round-Up-Featured-Image.jpg')]">
@@ -45,7 +45,7 @@ function Hero() {
           className="mt-10 md:mt-0 md:ml-10"
         >
           <img 
-            src="https://cdn.cnn.com/cnnnext/dam/assets/190524181015-04-cnn-as-equals-nigeria-consent-large-169.jpg" 
+            src={chiamake}
             alt="Chiamaka Illustration" 
             className="w-full max-w-xs sm:max-w-sm md:max-w-lg rounded-2xl shadow-lg object-cover"
           />

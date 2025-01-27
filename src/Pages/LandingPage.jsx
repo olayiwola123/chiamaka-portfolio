@@ -6,10 +6,12 @@ import MyWorkSection from '../Components/MyWorkSection'
 import CertificationsSection from '../Components/CertificateSection'
 import ContactSection from '../Components/ContactSection'
 import Footer from '../Components/Footer'
+import WhatsAppChat from '../Components/WhatsappChat'
 
 function LandingPage() {
   return (
     <div>
+        <WhatsAppChat />
       <Navbar />
       <Hero />
       <AboutSection />
@@ -17,6 +19,7 @@ function LandingPage() {
       <CertificationsSection />
       <ContactSection />
       <Footer />
+      {/* <WhatsAppChat /> */}
     </div>
   )
 }

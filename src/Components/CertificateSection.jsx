@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-
+import certificate1 from '../assets/certificate.jpg'
+import certificate2 from '../assets/certificate.png'
 function CertificationsSection() {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
 
   const certificates = [
-    { id: 1, title: "Social Media Management", image: "https://via.placeholder.com/300?text=Certificate+1" },
-    { id: 2, title: "Content Strategy Mastery", image: "https://via.placeholder.com/300?text=Certificate+2" },
-    { id: 3, title: "Brand Development Expert", image: "https://via.placeholder.com/300?text=Certificate+3" },
+    { id: 1, title: "Social Media Management", image: certificate1 },
+    { id: 2, title: "Content Strategy Mastery", image: certificate2},
+    { id: 3, title: "Brand Development Expert", image: certificate2},
   ];
 
   return (

@@ -115,7 +115,6 @@ function Footer() {
             </p>
           </div>
 
-          {/* Copyright */}
           <div className="text-gray-400 text-sm text-center sm:text-right">
             <p>
               &copy; {new Date().getFullYear()} Debby Nina. All Rights Reserved.

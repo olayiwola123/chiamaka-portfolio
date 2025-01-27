@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import React from "react";
+import chiamake from '../assets/chiamaka.png';
 
 function AboutSection() {
   return (
-    <section className="relative flex flex-col lg:flex-row items-center justify-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white py-16 px-6">
+    <section className="relative flex flex-col lg:flex-row items-center justify-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white py-16 px-6" id="about">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -12,7 +13,7 @@ function AboutSection() {
         className="w-full lg:w-1/2 flex justify-center"
       >
         <img
-          src="https://cdn.cnn.com/cnnnext/dam/assets/190524181015-04-cnn-as-equals-nigeria-consent-large-169.jpg"
+          src={chiamake}
           alt="About Me"
           className="rounded-lg shadow-2xl object-cover max-w-[300px] lg:max-w-[400px]"
         />

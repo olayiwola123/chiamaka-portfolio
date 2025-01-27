@@ -1,24 +1,26 @@
 import { motion } from "framer-motion";
 import React from "react";
+import before from '../assets/before.jpeg'
+import after from '../assets/after.jpeg'
 
 function MyWorkSection() {
   const projects = [
     {
       id: 1,
       title: "SoteriaCreationz Instagram Revamp",
-      before: "https://via.placeholder.com/300?text=Before+Image",
-      after: "https://via.placeholder.com/300?text=After+Image",
+      before: before,
+      after: after,
     },
     {
       id: 2,
       title: "Content Strategy & Branding",
-      before: "https://via.placeholder.com/300?text=Before+Image",
-      after: "https://via.placeholder.com/300?text=After+Image",
+      before: before,
+      after: after,
     },
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white px-6">
+    <section className="py-16 bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white px-6" id="work">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -55,7 +57,7 @@ function MyWorkSection() {
                     className="rounded-lg shadow-lg object-cover w-full"
                   />
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-3/2">
                   <h4 className="text-lg font-semibold text-gray-400 mb-2">After</h4>
                   <img
                     src={project.after}

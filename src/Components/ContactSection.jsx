@@ -38,7 +38,7 @@ function ContactSection() {
   };
 
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="py-16 px-6 bg-gray-50" id="contact">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div

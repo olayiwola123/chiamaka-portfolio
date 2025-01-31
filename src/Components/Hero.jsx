@@ -63,7 +63,7 @@ import chiamake from '../assets/chiamaka.png';
 
 function Hero() {
     return (
-        <section className="relative h-screen flex items-center justify-center bg-cover bg-[url('https://images.unsplash.com/photo-1620799140408-edc61ecb3abc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')]">
+        <section className="relative h-screen flex items-center justify-center bg-cover bg-[url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/05/Gradient-Round-Up-Featured-Image.jpg')]">
             {/* Background Overlay */}
             <div className="absolute inset-0 bg-black opacity-80"></div>
             
@@ -98,7 +98,7 @@ function Hero() {
                     </p>
                     <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 justify-center md:justify-start">
                         <a
-                            href="/path/to/your/cv.pdf"
+                        href={('../public/Nwabuchecv.pdf')}
                             target="_blank"
                             className="bg-[#ffd7be] px-8 py-4 rounded-full text-lg font-medium hover:bg-[#ffbf80] text-black"
                         >

@@ -4,7 +4,7 @@ import chiamake from '../assets/chiamaka.png';
 
 function AboutSection() {
   return (
-    <section className="relative flex flex-col lg:flex-row items-center justify-center bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white py-16 px-6" id="about">
+    <section className="relative flex flex-col lg:flex-row items-center justify-center bg-white text-white py-16 px-6" id="about">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -24,7 +24,7 @@ function AboutSection() {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="w-full lg:w-1/2 mt-8 lg:mt-0 lg:pl-12"
+        className="w-full lg:w-1/2 mt-8 lg:mt-0 lg:pl-12 text-black"
       >
         <h2 className="text-3xl lg:text-5xl font-extrabold mb-6">
           About Me

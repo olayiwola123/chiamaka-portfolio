@@ -49,8 +49,8 @@ function MyWorkSection() {
             <div key={project.id} className="bg-gray-800 rounded-lg p-6 shadow-lg">
               <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
               <div className="flex flex-col lg:flex-row gap-6">
-                <div className="w-full lg:w-1/2">
-                  <h4 className="text-lg font-semibold text-gray-400 mb-2">Before</h4>
+                <div className="w-full lg:w-3/2">
+                  {/* <h4 className="text-lg font-semibold text-gray-400 mb-2">Before</h4> */}
                   <img
                     src={project.before}
                     alt={`${project.title} Before`}
@@ -58,7 +58,7 @@ function MyWorkSection() {
                   />
                 </div>
                 <div className="w-full lg:w-3/2">
-                  <h4 className="text-lg font-semibold text-gray-400 mb-2">After</h4>
+                  {/* <h4 className="text-lg font-semibold text-gray-400 mb-2">After</h4> */}
                   <img
                     src={project.after}
                     alt={`${project.title} After`}

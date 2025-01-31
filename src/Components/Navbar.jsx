@@ -13,10 +13,9 @@ function Navbar() {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center p-7">
+      <div className="text-2xl font-bold text-[#ffd7be]">Chiamaka's Portfolio</div>
+        {/* <div className="text-2xl font-bold text-[] ">Chiamaka's Portfolio</div> */}
 
-        <div className="text-2xl font-bold text-pink-500">Chiamaka's Portfolio</div>
-
-        {/* Menu Button for Mobile */}
         <button
           className="text-3xl text-gray-900 md:hidden"
           onClick={toggleSidebar}

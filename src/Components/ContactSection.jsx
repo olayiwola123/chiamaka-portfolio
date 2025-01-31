@@ -65,7 +65,7 @@ function ContactSection() {
             <ul className="space-y-4">
               <li className="flex items-center text-gray-700">
                 <FaInstagram className="text-pink-500 mr-4" size={24} />
-                <a href="https://www.instagram.com/_debby.nina" className="hover:text-pink-500">
+                <a href="https://www.instagram.com/the_digital_deborah?igsh=ZTllOWl3cXl3eXV1&utm_source=qr" className="hover:text-pink-500">
                   @_debby.nina
                 </a>
               </li>
@@ -155,7 +155,7 @@ function ContactSection() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 type="submit"
-                className="bg-pink-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-pink-400"
+                className="bg-[#ffd7be] text-white px-6 py-2 rounded-lg font-semibold hover:bg-pink-400"
               >
                 Send Message
               </motion.button>

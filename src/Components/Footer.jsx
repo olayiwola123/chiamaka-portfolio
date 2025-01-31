@@ -15,7 +15,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About Section */}
         <div>
-          <h3 className="text-xl font-bold text-pink-500 mb-4">About</h3>
+          <h3 className="text-xl font-bold text-[#ffd7be] mb-4">About</h3>
           <p className="text-gray-300 leading-relaxed">
             Hi! I'm Debby Nina, a passionate creator with a love for design and
             creativity. Let's build something amazing together!
@@ -24,7 +24,7 @@ function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-xl font-bold text-pink-500 mb-4">Quick Links</h3>
+          <h3 className="text-xl font-bold text-[#ffd7be] mb-4">Quick Links</h3>
           <ul className="space-y-3">
             <li>
               <a href="#about" className="hover:text-pink-500">
@@ -51,7 +51,7 @@ function Footer() {
 
         {/* Subscribe Section */}
         <div>
-          <h3 className="text-xl font-bold text-pink-500 mb-4">Subscribe</h3>
+          <h3 className="text-xl font-bold text-[#ffd7be] mb-4">Subscribe</h3>
           <p className="text-gray-300 mb-4">
             Stay updated with my latest projects and offers.
           </p>
@@ -66,7 +66,7 @@ function Footer() {
             />
             <button
               type="submit"
-              className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg"
+              className="bg-[#ffd7be]  hover:bg-[#ffd7be]  text-white px-4 py-2 rounded-lg"
             >
               Subscribe
             </button>
